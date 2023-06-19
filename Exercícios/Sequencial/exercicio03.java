@@ -17,10 +17,10 @@ public class exercicio03 {
             c = sc.nextInt();
             d = sc.nextInt();
 
-        sc.close();
-
         dif = (a * b) - (c * d);
         System.out.println("Diferença = " + dif);
+
+        sc.close();
     }
 
 }
