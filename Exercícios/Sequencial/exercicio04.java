@@ -17,12 +17,12 @@ public class exercicio04 {
             horas = sc.nextInt();
             valor = sc.nextDouble();
 
-        sc.close();
-
         salario = horas * valor;
 
         System.out.println("NUMBER = " + numero);
         System.out.println("SALARY = U$ " + salario);
+
+        sc.close();
 
     }
 
