@@ -16,10 +16,10 @@ public class exercicio01 {
             System.out.println("Digite o segundo valor: ");
             y = sc.nextInt();
 
-        sc.close();
-
         soma = x + y;
         System.out.println("Soma = " + soma);
+
+        sc.close();
 
     }
 
