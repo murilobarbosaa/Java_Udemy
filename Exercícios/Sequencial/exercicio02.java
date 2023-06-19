@@ -15,10 +15,10 @@ public class exercicio02 {
             System.out.println("Digite o valor do raio: ");
             raio = sc.nextDouble();
 
-        sc.close();
-
         area = pi * Math.pow(raio, 2.0);
         System.out.println("Área = " + area);
+
+        sc.close();
 
     }
 
