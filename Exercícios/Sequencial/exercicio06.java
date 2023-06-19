@@ -16,8 +16,6 @@ public class exercicio06 {
             b = sc.nextDouble();
             c = sc.nextDouble();
 
-        sc.close();
-
         triangulo = (a * c) / 2;
         circulo = 3.14159 * Math.pow(c, 2.0);
         trapezio = (a + b) * c / 2;
@@ -29,6 +27,8 @@ public class exercicio06 {
         System.out.printf("TRAPÉZIO = %.2f %n", trapezio);
         System.out.printf("QUADRADO = %.2f %n", quadrado);
         System.out.printf("RETÂNGULO = %.2f %n", retangulo);
+
+        sc.close();
 
     }
 
