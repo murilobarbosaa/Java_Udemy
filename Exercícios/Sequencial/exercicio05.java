@@ -20,11 +20,11 @@ public class exercicio05 {
             n2 = sc.nextInt();
             v2 = sc.nextDouble();
 
-        sc.close();
-
         total = (n1 * v1) + (n2 * v2);
 
         System.out.printf("Valor a pagar: R$ %.2f", total);
+
+        sc.close();
 
     }
 
