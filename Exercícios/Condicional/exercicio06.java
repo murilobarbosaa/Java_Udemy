@@ -9,13 +9,11 @@ public class exercicio06 {
 
         Locale.setDefault(Locale.US);
 
-        double x;
-
         System.out.print("Digite um número: ");
 
         Scanner sc = new Scanner(System.in);
 
-            x = sc.nextDouble();
+            double x = sc.nextDouble();
 
         if (x >= 0 && x <= 100) {
             if (x <= 25) {
