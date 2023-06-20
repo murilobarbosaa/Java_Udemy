@@ -9,12 +9,10 @@ public class exercicio01 {
 
         Locale.setDefault(Locale.US);
 
-        int x;
-
         System.out.print("Digite um valor: ");
         Scanner sc = new Scanner(System.in);
 
-            x = sc.nextInt();
+            int x = sc.nextInt();
 
         if (x > 0) {
             System.out.println("NÃO NEGATIVO");
