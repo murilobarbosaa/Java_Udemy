@@ -9,14 +9,12 @@ public class exercicio07 {
 
         Locale.setDefault(Locale.US);
 
-        double x, y;
-
         System.out.print("Digite dois valores: ");
 
         Scanner sc = new Scanner(System.in);
 
-            x = sc.nextDouble();
-            y = sc.nextDouble();
+            double x = sc.nextDouble();
+            double y = sc.nextDouble();
 
         if (x == 0.0 && y == 0.0) {
             System.out.println("Origem");
