@@ -9,14 +9,14 @@ public class exercicio04 {
 
         Locale.setDefault(Locale.US);
 
-        int i, f, duracao;
+        int duracao;
 
         System.out.print("Digite a hora inicial e final do jogo: ");
 
         Scanner sc = new Scanner(System.in);
 
-            i = sc.nextInt();
-            f = sc.nextInt();
+            int i = sc.nextInt();
+            int f = sc.nextInt();
 
         if (i > f) {
             duracao = Math.abs(i - 24) + f;
