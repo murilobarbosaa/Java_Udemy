@@ -9,13 +9,13 @@ public class exercicio08 {
 
         Locale.setDefault(Locale.US);
 
-        double salario,imposto;
+        double imposto;
 
         System.out.print("Digite seu salario: ");
 
         Scanner sc = new Scanner(System.in);
 
-            salario = sc.nextDouble();
+            double salario = sc.nextDouble();
 
         if (salario <= 2000.0) {
             imposto = 0.0;
