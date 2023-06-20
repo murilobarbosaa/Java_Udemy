@@ -9,15 +9,14 @@ public class exercicio05 {
 
         Locale.setDefault(Locale.US);
 
-        int c, q;
         double preco;
 
         System.out.print("Digite o código do lanche (de 1 a 5) e a quantidade desejada: ");
 
         Scanner sc = new Scanner(System.in);
 
-            c = sc.nextInt();
-            q = sc.nextInt();
+            int c = sc.nextInt();
+            int q = sc.nextInt();
 
         if (c == 1) {
             preco = q * 4.0;
