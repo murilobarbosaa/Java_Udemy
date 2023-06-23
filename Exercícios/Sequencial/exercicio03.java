@@ -7,15 +7,15 @@ public class exercicio03 {
 
         Locale.setDefault(Locale.US);
 
-        int a, b, c, d, dif;
+        int dif;
 
         Scanner sc = new Scanner(System.in);
 
             System.out.println("Digite 4 valores: ");
-            a = sc.nextInt();
-            b = sc.nextInt();
-            c = sc.nextInt();
-            d = sc.nextInt();
+            int a = sc.nextInt();
+            int b = sc.nextInt();
+            int c = sc.nextInt();
+            int d = sc.nextInt();
 
         dif = (a * b) - (c * d);
         System.out.println("Diferença = " + dif);
