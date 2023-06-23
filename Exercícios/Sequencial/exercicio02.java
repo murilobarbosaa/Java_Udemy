@@ -7,13 +7,13 @@ public class exercicio02 {
 
         Locale.setDefault(Locale.US);
 
-        double area, raio;
+        double area;
         double pi = 3.14159;
 
         Scanner sc = new Scanner(System.in);
 
             System.out.println("Digite o valor do raio: ");
-            raio = sc.nextDouble();
+            double raio = sc.nextDouble();
 
         area = pi * Math.pow(raio, 2.0);
         System.out.println("Área = " + area);
