@@ -7,14 +7,14 @@ public class exercicio06 {
 
         Locale.setDefault(Locale.US);
 
-        double a, b, c, triangulo, circulo, trapezio, quadrado, retangulo;
+        double triangulo, circulo, trapezio, quadrado, retangulo;
 
         Scanner sc = new Scanner(System.in);
 
             System.out.println("Digite os valores : ");
-            a = sc.nextDouble();
-            b = sc.nextDouble();
-            c = sc.nextDouble();
+            double a = sc.nextDouble();
+            double b = sc.nextDouble();
+            double c = sc.nextDouble();
 
         triangulo = (a * c) / 2;
         circulo = 3.14159 * Math.pow(c, 2.0);
