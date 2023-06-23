@@ -7,14 +7,14 @@ public class exercicio01 {
 
         Locale.setDefault(Locale.US);
 
-        int x, y, soma;
+        int soma;
 
         Scanner sc = new Scanner(System.in);
 
             System.out.println("Digite o primeiro valor: ");
-            x = sc.nextInt();
+            int x = sc.nextInt();
             System.out.println("Digite o segundo valor: ");
-            y = sc.nextInt();
+            int y = sc.nextInt();
 
         soma = x + y;
         System.out.println("Soma = " + soma);
