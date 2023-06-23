@@ -7,15 +7,14 @@ public class exercicio04 {
 
         Locale.setDefault(Locale.US);
 
-        int numero, horas;
-        double valor, salario;
+        double salario;
 
         Scanner sc = new Scanner(System.in);
 
             System.out.println("Digite seu número, suas horas trabalhadas e o valor que recebe por hora: ");
-            numero = sc.nextInt();
-            horas = sc.nextInt();
-            valor = sc.nextDouble();
+            int numero = sc.nextInt();
+            int horas = sc.nextInt();
+            double valor = sc.nextDouble();
 
         salario = horas * valor;
 
