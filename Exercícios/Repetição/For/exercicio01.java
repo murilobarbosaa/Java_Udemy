@@ -3,26 +3,22 @@ import java.util.Scanner;
 
 public class exercicio01 {
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
 
         Locale.setDefault(Locale.US);
 
         Scanner sc = new Scanner(System.in);
 
-        int senha = 2002;
+        int x = sc.nextInt();
 
-        System.out.print("Digite a senha: ");
-
-        int tentativa = sc.nextInt();
-
-        while (tentativa != senha) {
-            System.out.println("Senha Inválida");
-            tentativa = sc.nextInt();
+        for (int i = 1; i <= x; i ++ ) {
+            if (i % 2 != 0) {
+                System.out.println(i);
+            }
         }
-
-        System.out.println("Acesso Permitido");
 
         sc.close();
 
     }
+
 }
